@@ -15,5 +15,5 @@ int main()
     printf("Integer: %d\nFloat: %f\nText: %s\n", a, d, str);
     cout << "\n enter an integer,a float, and a text:";
     cin >> a >> d >> str;
-    return 0;
+
 }

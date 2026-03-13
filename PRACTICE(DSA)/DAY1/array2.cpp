@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[3][5];
+    // 2S Array
+
+    arr[1][3] = 78;
+    cout << arr[1][2];
+    return 0;
+}

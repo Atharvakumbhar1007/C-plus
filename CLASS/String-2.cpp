@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string firstName;
+    cout << "Type your \tfirst name: ";
+    getline(cin, firstName);// get user input from the keyboard
+    cout << "Your name is: " << firstName;
+  return 0;
+}

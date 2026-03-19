@@ -4,12 +4,14 @@ using namespace std;
 void sum(int num1, int num2)
 {
     int num3 = num1 + num2;
-    cout num3;
+    cout << num3;
 }
 
 int main()
 {
+    int a, b;
+    cin >> a >> b;
+    sum(a, b);
 
-    int num1, num2;
-    cin >> num1 return 0;
+    return 0;
 }

@@ -24,4 +24,14 @@ int main()
     cout << v.back() << " "; // 50
 
     return 0;
+
+    for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
+    {
+        cout << *(it) << "";
+    }
+
+    for (auto it = v.begin(); it != v.end(); it++)
+    {
+        cout << it << " ";
+    }
 }

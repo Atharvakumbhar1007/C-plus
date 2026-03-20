@@ -14,8 +14,6 @@ int main()
     it = it + 2;
     cout << *(it) << " "; // 40
 
-    it = v.end(); // points after last (don't dereference)
-
     vector<int>::reverse_iterator rit = v.rbegin();
     cout << *rit << " "; // 50
 
@@ -23,15 +21,21 @@ int main()
 
     cout << v.back() << " "; // 50
 
-    return 0;
+    cout << endl;
 
+    // Loop 1
     for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
     {
-        cout << *(it) << "";
+        cout << *it << " ";
     }
 
+    cout << endl;
+
+    // Loop 2 (auto)
     for (auto it = v.begin(); it != v.end(); it++)
     {
-        cout << it << " ";
+        cout << *it << " ";
     }
+
+    return 0;
 }
